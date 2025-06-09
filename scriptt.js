@@ -16,7 +16,7 @@ let currentPlayer = "X";
 let running = false;
 
 initializeGame();
-// shdjsdhjshdjshdjsdhjsdhsj
+
 function initializeGame() {
   cells.forEach((cell) => cell.addEventListener("click", cellClicked));
   restartBtn.addEventListener("click", restartGame);
